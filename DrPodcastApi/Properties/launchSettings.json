@@ -1,0 +1,30 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:54497",
+      "sslPort": 44335
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "podcasts/harddisken?publicationDateStart=2017-03-31T13:30:00%2B02:00&limit=15",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "DrPodcastApi": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "podcasts/harddisken?publicationDateStart=2017-03-31T13:30:00%2B02:00&limit=15",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}

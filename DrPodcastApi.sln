@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrPodcastApi", "DrPodcastApi\DrPodcastApi.csproj", "{561A441F-1E2E-4A3B-8339-73D07B22D75A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{77AC21A2-0F5D-47E0-B137-F70ED4360216}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrPodcastApi.Tests", "DrPodcastApi.Tests\DrPodcastApi.Tests.csproj", "{4BD93799-10A5-4E86-AB54-BEC604176FBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{561A441F-1E2E-4A3B-8339-73D07B22D75A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{561A441F-1E2E-4A3B-8339-73D07B22D75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{561A441F-1E2E-4A3B-8339-73D07B22D75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{561A441F-1E2E-4A3B-8339-73D07B22D75A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BD93799-10A5-4E86-AB54-BEC604176FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD93799-10A5-4E86-AB54-BEC604176FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD93799-10A5-4E86-AB54-BEC604176FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD93799-10A5-4E86-AB54-BEC604176FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCD5F2E3-2DE1-4C02-A099-F835B205D79F}
+	EndGlobalSection
+EndGlobal
